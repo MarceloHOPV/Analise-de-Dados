@@ -25,7 +25,21 @@
 
 #Conjunto {Do inglês set, não guarda ordem, não repete}
 
-nomes = {'Goku', 'Vegeta', 'Trunks', 'Gohan'}
-nomes.add('Bulma')
-nomes.add('Goku')
-print(nomes)
+# nomes = {'Goku', 'Vegeta', 'Trunks', 'Gohan'}
+# nomes.add('Bulma')
+# nomes.add('Goku')
+# # Select
+# print(nomes)
+# # Delete
+# nomes.remove('Trunks') # Não tem update
+
+# Dicionario {Usa chaves também, dicionário é mutavel, Usa índices customizaveis}
+
+pessoa1 = {'nome': 'Goku', 'idade': 42}
+pessoa2 = {'nome': 'Bulma', 'idade': 32}
+
+pessoas = [pessoa1, pessoa2]
+
+#pessoas[pessoa1]
+
+print(pessoas)
